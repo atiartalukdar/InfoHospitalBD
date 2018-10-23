@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "996827214436",
+    "firebase_url": "https://infohospitalbd-92bb7.firebaseio.com",
+    "project_id": "infohospitalbd-92bb7",
+    "storage_bucket": "infohospitalbd-92bb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996827214436:android:75d46dff4c683b05",
+        "android_client_info": {
+          "package_name": "com.infohospital.infohospitalbd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996827214436-f76eio4qg87752aur3r6t3qs69280ipt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.infohospital.infohospitalbd",
+            "certificate_hash": "b7db144a1b10fedd42e4d5d7306ab38367bbfd90"
+          }
+        },
+        {
+          "client_id": "996827214436-0rtvoe66dcnmoimhth5atrjouimilfms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEZ8yV1VX-ZL_Vt6HE0WjCVXQemnfEyog"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996827214436-0rtvoe66dcnmoimhth5atrjouimilfms.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

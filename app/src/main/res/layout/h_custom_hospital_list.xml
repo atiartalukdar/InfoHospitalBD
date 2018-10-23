@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+        android:layout_marginBottom="5dp"
+    android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/hospitalIcon"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/apollo" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:gravity="center|left"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/hospitalName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:padding="2dp"
+            android:textColor="#33CC33" />
+        <TextView
+            android:id="@+id/contactDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Details"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/emergency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ambulance, ICU, NICU,Emergency"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="H#16, R#02, Dhanmondi RA, Dhaka"
+            android:layout_marginLeft="5dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+</LinearLayout>
